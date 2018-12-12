@@ -1,0 +1,111 @@
+/**********CUSTOM HEADINGS FOR POOERTFOLIO SERVICES AND ABOUT SECTION******/
+
+body, div{
+    margin:0;
+}
+
+
+/**********CUSTOM HEADINGS FOR PORTFOLIO SERVICES AND ABOUT SECTION******/
+/******************NAV BAR SECTION ****************/
+
+
+
+.nav {
+    width:100%;
+    padding-top:20px;
+    height:60px;
+    background:#fff;
+    padding-bottom:15px;
+}
+.nav:after {
+    clear:both;
+}
+
+#logo {
+    padding-left: 5%; 
+    width:10%;
+    float:left;
+ }
+ /*adjust the size of the logo*/
+#logo img {
+    height:60px;
+}
+
+#nav-container {
+    padding-right: 5%;
+}
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 10px;
+    float:right;
+}
+.nav-ul-li {
+    font-family:Impact, Charcoal, sans-serif;
+    opacity:1;
+    display:inline;
+}
+.nav-items{
+    text-decoration: none;
+    text-align: center;
+    color:#912cee;
+}
+.nav-items {
+    padding:15px 30px;
+    transition:ease-in-out;
+    transition:0.4s;
+}
+.nav-items:hover {
+    background:#912cee;
+    color: #fff;
+}
+
+#menu {
+    display:none;
+    float:right;
+}
+
+
+@media only screen and (max-width: 900px) {
+ 
+   /*************END OF SMALL SCREENS NAVIGATION SECTION*************/
+    .nav-items{
+        border:none;
+        border-radius: 0;
+    }
+    #mobile-menu-icon div {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        }
+    #mobile-menu-icon {
+        border-radius: 1px;
+        padding:5px 20px;
+        float:right;
+    }
+    #mobile-menu-icon:after {
+        clear: both;
+    }
+    #nav-container {
+        position: fixed;
+        top:20px;
+        right:20px;
+        display:none;
+        background-color:#f3f3f3;
+        border-radius:10px;
+        z-index: 10;
+    }
+    #nav-container li {
+    display:block;
+    margin:20px 0;
+    text-align: left;
+    }
+    .nav-items:hover {
+        color:#f3f3f3;
+        background-color: #912cee;
+        border-radius:10px;
+    }
+   /*************END OF SMALL SCREENS NAVIGATION SECTION*************/
+}
