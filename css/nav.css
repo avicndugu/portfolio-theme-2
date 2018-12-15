@@ -14,9 +14,10 @@ body, div{
     width:100%;
     padding-top:20px;
     height:60px;
-    background:#fff;
+    background:none;
     padding-bottom:15px;
 }
+
 .nav:after {
     clear:both;
 }
@@ -49,7 +50,7 @@ body, div{
 .nav-items{
     text-decoration: none;
     text-align: center;
-    color:#912cee;
+    color:#fff;
 }
 .nav-items {
     padding:15px 30px;
@@ -57,8 +58,8 @@ body, div{
     transition:0.4s;
 }
 .nav-items:hover {
-    background:#912cee;
-    color: #fff;
+    background:#fff;
+    color: #912cee;
 }
 
 #menu {
@@ -73,11 +74,12 @@ body, div{
     .nav-items{
         border:none;
         border-radius: 0;
+        color:#912cee;
     }
     #mobile-menu-icon div {
         width: 35px;
         height: 5px;
-        background-color: black;
+        background-color: #fff;
         margin: 6px 0;
         }
     #mobile-menu-icon {

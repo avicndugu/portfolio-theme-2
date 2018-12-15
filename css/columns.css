@@ -1,7 +1,7 @@
 .section-holder{
     display:block;
     overflow:auto;
-    margin:auto 30px;
+    margin:0 50px;
 }
 .row {
     padding-bottom:20px;
