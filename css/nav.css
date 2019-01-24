@@ -58,8 +58,9 @@ body, div{
     transition:0.4s;
 }
 .nav-items:hover {
-    background:#fff;
+    background:#ffb9fb;
     color: #912cee;
+    border-radius:20px;
 }
 
 #menu {

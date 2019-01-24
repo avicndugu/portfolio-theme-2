@@ -4,6 +4,13 @@ img {
   	margin-left: auto;
   	margin-right: auto;	
 }
+h3{
+	font-size: 25px;
+}
+h4 {
+	font-size: 18px;
+	text-align: center;
+}
 /*End of global scale styling*/
 
 /*Section scope styling*/
@@ -48,11 +55,25 @@ img {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
+  	border-width:0;
+  	padding:10px 20px;
+  	border-radius: 10px;
+  	background-color:#ffb9fb;
 }
+.section-1 button:hover {
+  	background-color:#ffb9fb;
+  	padding:10px 20px;
+  	transition: 0.4s;
+}
+
 
 .section-2 img {
 	width:100%;
 	border-radius: 50%;
+}
+.section-2 p{
+	line-height: 1.55em;
+	font-size:1.2em;
 }
 
 .section-3 .column-1-3 {
@@ -62,6 +83,43 @@ img {
 	width:100%;
 	border-radius: 50%;
 }
+.section-4 img {
+	width:100%;
+	/*border-radius: 50%;*/
+}
+
+.section-5 {
+	text-align: center;
+}
+/**************PROGRESS BARS*********************/
+.progress {
+    width: 100%;
+    /*height:40px;*/
+    background-color: #ddd;
+    border-radius: 10px 10px;
+}
+.skill-length {
+    background-color: #DA70D6;
+    border-radius: 10px;
+   	height:30px;
+}
+#javascript {
+    width: 75%;
+}
+#css {
+    width: 85%;
+}
+#html {
+    width: 95%;
+}
+#design {
+    width: 60%;
+}
+#video {
+    width: 50%;
+}
+/****************** END OF PROGRESS BARS *************************/
+
 
 footer {
 	text-align: center;
@@ -81,6 +139,10 @@ footer {
 		width:60%;
 		border-radius: 50%;
 	}
+	.section-2 p{
+	/*line-height: 1em;*/
+	font-size:1em;
+}
 	.section-3 img {
 		width:60%;
 		border-radius: 50%;
