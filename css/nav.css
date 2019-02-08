@@ -24,7 +24,7 @@ body, div{
 
 #logo {
     padding-left: 5%; 
-    width:10%;
+    width:120px;
     float:left;
  }
  /*adjust the size of the logo*/
@@ -76,6 +76,12 @@ body, div{
         border:none;
         border-radius: 0;
         color:#912cee;
+    }
+    #logo {
+        padding-left: 5%; 
+        width:120px;
+        float:left;
+        /*width:60px;*/
     }
     #mobile-menu-icon div {
         width: 35px;

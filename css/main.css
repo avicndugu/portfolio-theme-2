@@ -1,17 +1,31 @@
 /*Global scale styling*/
+h1 {
+	margin:0;
+	font-family: 'Lobster', cursive;
+}
 img {
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;	
+  	/*margin-left: auto;
+  	margin-right: auto;*/
+  	width:100%;
 }
 h3{
+	margin:0;
 	font-size: 25px;
+    /*font-family: 'Varela Round', sans-serif;*/
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 h4 {
 	font-size: 18px;
 	text-align: center;
 }
+p{
+	margin:5px;
+	line-height: 1.65em;
+	font-size:1.2em;
+}
 /*End of global scale styling*/
+
 
 /*Section scope styling*/
 
@@ -34,7 +48,7 @@ h4 {
 }
 .full-center {
     position: absolute;
-    top:30%;
+    top:40%;
     left:15%;
     height:100%;
     width:70%;
@@ -42,9 +56,9 @@ h4 {
 	overflow: auto;
 
 }
-.section-1 h3{
+.section-1 h1{
 	/*padding-top:100px;*/
-	font-size:30px;
+	font-size:40px;
 	/*text-align: center;*/
 }
 .section-1 p{
@@ -66,6 +80,9 @@ h4 {
   	transition: 0.4s;
 }
 
+.section-2, .section-3,.section-4,.section-5,.section-6 {
+	padding:50px 0px;
+}
 
 .section-2 img {
 	width:100%;
@@ -74,6 +91,11 @@ h4 {
 .section-2 p{
 	line-height: 1.55em;
 	font-size:1.2em;
+}
+
+.section-4, .section-5{
+	background-color: #ffc1fa;
+	/*opacity: 0.1;*/
 }
 
 .section-3 .column-1-3 {
@@ -99,7 +121,7 @@ h4 {
     border-radius: 10px 10px;
 }
 .skill-length {
-    background-color: #DA70D6;
+    background-color: #9A20e6;/*912cee*/
     border-radius: 10px;
    	height:30px;
 }
@@ -112,17 +134,26 @@ h4 {
 #html {
     width: 95%;
 }
-#design {
+#wordpress {
     width: 60%;
-}
-#video {
-    width: 50%;
 }
 /****************** END OF PROGRESS BARS *************************/
 
 
 footer {
+	padding:10px;
 	text-align: center;
+}
+.social-links {
+	font-size: 2.5em;
+	/*box-sizing: border-box;*/
+}
+.social-links a {
+	width: 60px;
+	/*height: 60px;*/
+	/*border-radius: 50%;*/
+	/*margin-left: 20px;*/
+	/*background: #9878a3;*/
 }
 
 /*End of section scope styling*/

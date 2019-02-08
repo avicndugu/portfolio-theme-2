@@ -1,10 +1,13 @@
+body {
+    margin:0;
+    padding:0;
+}
 .section-holder{
     display:block;
     overflow:auto;
-    margin:0 50px;
 }
 .row {
-    padding-bottom:20px;
+    padding:50px 50px;
     margin:0;
 }
 
@@ -20,11 +23,6 @@
 .column-holder {
     max-width: 98%; 
     display: block;
-    /*margin:0 auto;*/
-    /*margin-left: 5%;*/
-    /*margin-right: 5%;*/
-    /*min-height: 100px;*/
-    /*text-align: left;*/
 }
 
  /*Three column layout*/
@@ -69,8 +67,6 @@
     .column-4 { 
     width:50%;
     }
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -78,7 +74,6 @@
         width:100%;
     }
 }
-
 
 /*Aligning header center*/
 .section-header {
