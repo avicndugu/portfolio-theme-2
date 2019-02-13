@@ -1,22 +1,22 @@
 /*Global scale styling*/
-h1 {
+/*h1 {
 	margin:0;
 	font-family: 'Lobster', cursive;
-}
-img {
-	display: block;
+}*/
+/*img {
+	display: block;*/
   	/*margin-left: auto;
   	margin-right: auto;*/
-  	width:100%;
-}
-h3{
+/*  	width:100%;
+}*/
+/*h3{
 	margin:0;
-	font-size: 25px;
+	font-size: 25px;*/
     /*font-family: 'Varela Round', sans-serif;*/
-    font-family: "Courier New", Courier, monospace;
+    /*font-family: "Courier New", Courier, monospace;*/
     /*"Comic Sans MS", cursive, sans-serif;*/
-}
-h4 {
+/*}*/
+/*h4 {
 	font-size: 18px;
 	text-align: center;
 }
@@ -24,12 +24,12 @@ p{
 	margin:5px;
 	line-height: 1.65em;
 	font-size:1.2em;
-}
-.section-holder {
+}*/
+/*.section-holder {*/
 	/*margin-bottom: -7.5%;*/
-	margin-top:-5%;
-}
-.section-header {
+	/*margin-top:-5%;*/
+/*}*/
+/*.section-header {
 	margin-top:-5%;
     padding-top:50px;
     width:50%;
@@ -39,7 +39,7 @@ p{
     padding-bottom: 50px;
     border:solid 1px #ccc;
     border-radius: 20px;
-    text-align: center;
+    text-align: center;*/
 	/*width:20%;
     margin:0 auto;
 	background-color: #f0b9fb;*/
@@ -50,7 +50,7 @@ p{
 	text-align: center;
 	padding:0;
 	margin:0;*/
-}
+/*}*/
 .section-header h3{
 	padding:20px 10px;
 	margin:0;
